@@ -6,7 +6,7 @@ https://omaraflak.medium.com/ray-tracing-from-scratch-in-python-41670e6a96f9
 
 ### Introuction:
 
-It took me a couple of days to wrap my head around the vector mathematics involved in a raytracer as well as attemping to understand how I would go about implementing vectors in the programming language. In other similar solutions, after researching online, I found that creating a vector class with three properties (XYZ) that has different vector operation methods would suit my use case more, and be more efficent than using a Numpy array and it's associated methods to represent the three (XYZ) coordinates. To do this, I created a Vector3D class. In additon to this, I researched more efficent methods and packages to speed up the running time. 
+It took me a couple of days to wrap my head around the vector mathematics involved in a raytracer as well as attemping to understand how I would go about implementing vectors in the programming language. In other similar solutions, after researching online, I found that creating a vector class with three properties (XYZ) that has different vector operation methods would suit my use case more, and be more efficent than using a Numpy array and it's associated methods to represent the three (XYZ) coordinates. To do this, I created a Vector3D class. In additon to this, I researched more efficent methods and packages to speed up the running time. Finally, I implemented OpenCV display methods using them to display the image with a RGB color space instead of BGR.
 
 ### How Raytacing Works:
 
